@@ -18,12 +18,18 @@ Angular
  Caution: Super easy to put logic on the DOM with ng-click and others. Avoid this. Just call function
  Put $http calls in service not into Controller
 - Don't use Angulars official router use Angular UI router
+- Super small bootstrapping process, basically just for things you need
 
 Ember
 - two way binding via accessor methods on objects (messier syntacs)
 - more efficient data checking
 - no scaling problem like Angular
 - hard to work outside the framework
+- magic involved: routes, controllers and stuff are created for you
+- dependencies
+  ember, ember-data, handlebars jquery
+- Ember requires a lot of bootstrapping
+- Convention over configuration
 
 Backbone
 - two-way databinding like Ember but not free

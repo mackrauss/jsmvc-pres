@@ -27,5 +27,10 @@ Todos.Todo.FIXTURES = [
   id: 5,
   val: 'Horse-sized duck',
   completed: false
+ },
+ {
+  id: 6,
+  val: 'Hello World!',
+  completed: false
  }
 ];
