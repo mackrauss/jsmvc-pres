@@ -4,6 +4,7 @@
 // dependencies go in function ()
 ngTodo.controller("NgTodoCtrl", function($http) {
 
+  // do this in a service not here
   var promise = $http({
     method: "GET",
     url: "http://www.reddit.com/r/aww/search.json?q=kitty"
