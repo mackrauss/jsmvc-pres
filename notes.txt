@@ -1,0 +1,44 @@
+Brian Holt
+
+- works at Reddit
+- mascot is called Snu (genderless)
+- each employee has a snu
+
+Why use MVC?
+- help get more done with less code
+- can hinder you however
+- Don't use it for everything you do
+
+Angular
+- seriously advanced code that is hard to understand
+- dirty checking (Am I different?) - digest cycle to see if something is different
+- Don't track more than 2000 variables ;)
+- one dirty comparison shouldn't take more than 25 (u)sec
+- hard to work outside the framework
+
+Ember
+- two way binding via accessor methods on objects (messier syntacs)
+- more efficient data checking
+- no scaling problem like Angular
+- hard to work outside the framework
+
+Backbone
+- two-way databinding like Ember but not free
+- no black magic hence bare bones
+- very flexible
+- nothing is for free
+- one could rip out Backbone's views and put in ReactJS
+- marionette, chaplin, thorax will give you more
+
+React
+- two-way databinding isn't free but easy
+- not and MVC
+- no model underneath it
+- constructs a virtual DOM and compares it with the actual DOM
+- super fast
+- the v in MVC
+- pairs nicely with Backbone or other Frameworks
+- allows serverside pre-rendering in node (since it is Javascript virtual DOM :)
+
+
+
